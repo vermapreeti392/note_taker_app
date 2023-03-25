@@ -1,0 +1,87 @@
+.Register-container{
+    height: 100vh;
+    background-color: rgb(255, 213, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Register-main{    
+    /* margin: auto; */
+    /* display: flex; */
+    justify-content: center;
+    height: 70%;
+    background-color: #FFF;
+    width: 30%;   
+}
+.inp {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Rinput {    
+    width: 80%;
+    height: 3em;    
+    outline: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(185, 185, 185);    
+}
+.con{
+    border-radius: 10px;
+    background-color: rgb(255, 144, 163);
+    color: #FFF;
+    border: none;
+    outline: none;
+}
+.login-container{
+    height: 100vh;
+    background-color: rgb(10, 67, 89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-main{    
+    margin: auto;
+    height: 60%;
+    width: 30%;
+    background-color: #FFF;
+}
+.login-inp {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    
+}
+.input1{
+    width: 80%;
+    height: 2em;   
+    border-radius: 5px; 
+    outline: none;
+    margin-left: 10px;
+    margin-right: 10px; 
+    margin-left: 40px;   
+    border: 1px solid rgb(185, 185, 185);  
+}
+label{
+    display: flex;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
+    margin-left: 40px;
+    font-weight: bold;
+}
+.lg-input{
+    text-align: left;
+}
+.lg-check{
+    margin-left: 40px;
+}
+.frgt-pass{
+    text-align: right;
+    margin-right: 60px;
+    margin-top: 10px;    
+}

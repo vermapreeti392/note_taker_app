@@ -1,0 +1,78 @@
+.Landing-main{
+    height: 100vh;
+    background-image: url('../../assets/back.jpg');
+    
+}
+.search{
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+    color: black;
+    top: -2px;
+}
+.inp-search{
+    width: 70%;
+    margin-top: 10px;
+    background-color:#fff;
+    border-radius: 10px;
+    height: 2.2em;
+    outline: none;
+    border: none;
+}
+.add{       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-new{
+    border-radius: 10px;
+    background-color: rgb(68, 68, 68);
+    color: #fff;
+    
+}
+.card-heading{
+    text-align: left;
+}
+.card-div{
+    margin-top: 50px;
+}
+
+
+.note-card{
+    margin: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.note-div{ 
+    padding: 5px 10px;  
+     
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: left;
+    background-color: #fff;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: rgb(1, 1, 44);
+    color: #fff;
+    padding-left: 18px;
+}
+.navb{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: rgb(1, 1, 44);
+    color: #fff;
+    /* padding-left: 18px; */
+}
+.nav span {
+    font-size: 22px;
+}
+.navbar :hover{
+    cursor: pointer;
+}
