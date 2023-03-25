@@ -9,7 +9,7 @@ export default function UpdateNote() {
   const [description, setDescription] = useState("")
   const { id } = useParams()
   useEffect(() => {
-    fetch(`http://localhost:5000/note/${id}`, {
+    fetch(`https://note-app-dnd7.onrender.com/note/${id}`, {
         headers: {
             'Authorization': "Bearer " + localStorage.getItem('token')
         }
@@ -21,7 +21,7 @@ export default function UpdateNote() {
 }, [])
 
   const handleUpdate = (id) => {  
-    fetch(`http://localhost:5000/update/${id}`,{
+    fetch(`https://note-app-dnd7.onrender.com/update/${id}`,{
       method: 'put',
       headers: {
         'Content-Type': 'application/json',

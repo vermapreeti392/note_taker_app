@@ -13,7 +13,7 @@ export default function Home() {
 
     useEffect(() => {
         const getnote = async () => {
-            await fetch('http://localhost:5000/note', {
+            await fetch('https://note-app-dnd7.onrender.com/note', {
                 headers: {
                     'Authorization': "Bearer " + localStorage.getItem('token')
                 }

@@ -31,7 +31,7 @@ export default function Register() {
             return
         }
         else{
-            fetch('http://localhost:5000/register',{
+            fetch('https://note-app-dnd7.onrender.com/register',{
                 method: 'post',
                 mode : "cors",
                 headers : {

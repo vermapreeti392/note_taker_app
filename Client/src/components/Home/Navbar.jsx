@@ -9,7 +9,7 @@ export default function Navbar() {
     navigate('/login')
 }
   const handleDeleteAll = () => {
-    fetch("http://localhost:5000/deleteall", {
+    fetch("https://note-app-dnd7.onrender.com/deleteall", {
       method: 'delete',
       headers: {
         'Authorization': "Bearer " + localStorage.getItem('token')

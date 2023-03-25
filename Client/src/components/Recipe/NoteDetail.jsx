@@ -10,7 +10,7 @@ export default function NoteDetail() {
         navigate('/update/' + id)
     }
     useEffect(() => {
-        fetch(`http://localhost:5000/note/${id}`, {
+        fetch(`https://note-app-dnd7.onrender.com/note/${id}`, {
             headers: {
                 'Authorization': "Bearer " + localStorage.getItem('token')
             }
@@ -21,7 +21,7 @@ export default function NoteDetail() {
             })
     }, [])
     const handleDelete = async(id)=>{
-        await fetch(`http://localhost:5000/delete/${id}`,{
+        await fetch(`https://note-app-dnd7.onrender.com/delete/${id}`,{
           method: 'delete',        
         })
         .then(res=>res.json())

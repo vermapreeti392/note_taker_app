@@ -8,7 +8,7 @@ export default function AddNote() {
   const [description, setDescription] = useState("")  
  
   const handleAddNote = () => {  
-    fetch('http://localhost:5000/addnote',{
+    fetch('https://note-app-dnd7.onrender.com/addnote',{
       method: 'post',
       headers: {
         'Content-Type': 'application/json',
